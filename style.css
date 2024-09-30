@@ -1,13 +1,19 @@
 *{
-    background-color: black;
+    background: linear-gradient(to right white, grey);
 }
 header{
     color: red;
     font-size: large;
 }
 p{
-    color: aliceblue;
+    position: fixed;
+    top: 10;
+    left: 10;
+    z-index: 1000;
+    color: rgb(33, 13, 211);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 20%;
     padding: 20px;
+    font-weight: 600;
+    background-color: blueviolet;
 }
